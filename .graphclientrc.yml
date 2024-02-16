@@ -1,0 +1,8 @@
+# .graphclientrc.yml
+sources:
+  - name: prism
+    handler:
+      graphql:
+        endpoint: https://api.studio.thegraph.com/query/64559/prism-on-blast/version/latest
+documents:
+  - ./prism.graphql
